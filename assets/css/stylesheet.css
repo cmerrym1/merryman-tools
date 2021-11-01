@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: navy;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: gray;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: navy;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: navy;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+footer {
+    background: gray;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: navy;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url('../images/mechanic.png');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    border: 3px solid gray;
+    background-color: navy;
+    padding: 20px;
+    width: 500px;
+    color: gray;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid gray;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: gray;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: navy;
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.intro {
+    color: navy;
+    background: gray;
+}
+
+.intro h2 {
+    text-align: center;
+}
+.intro p {
+    line-height: 1.7;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.intro img {
+    width: 10%;
+    float: left;
+    margin: 5px;
+}
